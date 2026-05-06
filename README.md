@@ -55,14 +55,7 @@ No advanced programming knowledge is required to run it.
 - All sequences must use only the bases: **A, C, G, T** (or U — it is handled automatically)
 - Sequences with ambiguous characters (N, ?, etc.) are automatically skipped
 
-**Example FASTA input:**
-strain_1
-ATGAAACGTATTTTTGTT...
-strain_2
-ATGAAACGCATTTTTGTT...
-strain_3
-ATGAAACGTATCTTTGTT...
-
+For example a sample fasta file named sugE.txt may be used
 ---
 
 ## Output Format
@@ -82,6 +75,7 @@ It contains these sheets:
 | `Summary` | ti/tv counts, ratios, codon degeneracy (FFD%, TFD%) |
 | `Mutation_positions` | Position, codon, amino acid, and class of every observed mutation |
 
+The sample output file may be seen as sugE_mutation_analysis.xlsx
 ---
 
 ## How to Run the Program
