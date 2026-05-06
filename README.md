@@ -54,8 +54,7 @@ No advanced programming knowledge is required to run it.
 - Each FASTA file should contain **aligned sequences** of one gene from multiple strains
 - All sequences must use only the bases: **A, C, G, T** (or U — it is handled automatically)
 - Sequences with ambiguous characters (N, ?, etc.) are automatically skipped
-
-For example a sample fasta file named sugE.txt may be used
+- For example a sample fasta file named sugE.txt may be used
 ---
 
 ## Output Format
@@ -74,8 +73,8 @@ It contains these sheets:
 | `Observed_Total` | Total observed mutations per type (syn + non-syn) |
 | `Summary` | ti/tv counts, ratios, codon degeneracy (FFD%, TFD%) |
 | `Mutation_positions` | Position, codon, amino acid, and class of every observed mutation |
+- For example a sample output file named "sugE_mutation_analysis.xlsx" may be seen.
 
-The sample output file may be seen as sugE_mutation_analysis.xlsx
 ---
 
 ## How to Run the Program
@@ -115,6 +114,11 @@ analyze them one by one.
 **Example (Windows):**
 
 cd C:\Users\YourName\snp_analysis
+python titv_Mar.py
+
+**Example (Mac/Linux):**
+
+cd /home/yourname/snp_analysis
 python titv_Mar.py
 
 ### Step 5 — View results
